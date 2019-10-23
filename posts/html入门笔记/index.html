@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>花生油奇遇记  | HTML入门笔记</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="HTML入门笔记" />
+<meta property="og:description" content="HTML 简介 HTML 起手式 常见的章节标签 标签的全局属性 常用的内容标签  1. HTML 简介 超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。 HTML 由一系列的元素（elements）组成，这些元素可以用来包围不同部分的内容，使其以某种方式呈现或者工作。 特别需要注意的是，每个标签都有默认样式，但是都可以通过后续部署对样式进行修改。
+2. HTML 起手式 &lt;!DOCTYPE html&gt; &lt;!--文档类型--&gt; &lt;html lang =&quot;zh-CN&quot;&gt; &lt;!--语言--&gt; &lt;head&gt; &lt;!--头标签，放置看不见的元素--&gt; &lt;meta charse =&quot;UTF-8&quot;&gt; &lt;!--文件字符编码--&gt; &lt;meta name =&quot;viewport&quot; content =&quot;width = device-width , initial-scale =1.0&quot;&gt; &lt;!--兼容手机，禁止缩放--&gt; &lt;meta http-equiv = &quot;X-UA-Compatible&quot; content = &quot;ie = edge&quot;&gt; &lt;!--告诉浏览器使用最新内核--&gt; &lt;title&gt;Document&lt;/title&gt; &lt;!--标题--&gt; &lt;/head&gt; &lt;body&gt;&lt;/body&gt;  3. 常见的章节标签 ——表示文章/书的层级  章节标签： &lt;section&gt;&lt;/section&gt; 标题标签 ： &lt;h1&gt;&lt;/h1&gt;、&lt;h2&gt;&lt;/h2&gt;、&lt;h3&gt;&lt;/h3&gt;、&lt;h4&gt;&lt;/h4&gt;、&lt;h5&gt;&lt;/h5&gt;、&lt;h6&gt;&lt;/h6&gt; 段落标签：&lt;p&gt;&lt;/p&gt; 头部标签：&lt;header&gt;&lt;/header&gt; 底部标签：&lt;footer&gt;&lt;/footer&gt; 主要内容标签：&lt;main&gt;&lt;/main&gt; 旁支标签：&lt;aside&gt;&lt;/aside&gt; 块级分节标签：&lt;div&gt;&lt;/div&gt; 行内分节标签：&lt;span&gt;&lt;/span&gt;  4." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/" />
+<meta property="article:published_time" content="2019-10-23T22:44:21+08:00" />
+<meta property="article:modified_time" content="2019-10-23T22:44:21+08:00" />
+<meta itemprop="name" content="HTML入门笔记">
+<meta itemprop="description" content="HTML 简介 HTML 起手式 常见的章节标签 标签的全局属性 常用的内容标签  1. HTML 简介 超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。 HTML 由一系列的元素（elements）组成，这些元素可以用来包围不同部分的内容，使其以某种方式呈现或者工作。 特别需要注意的是，每个标签都有默认样式，但是都可以通过后续部署对样式进行修改。
+2. HTML 起手式 &lt;!DOCTYPE html&gt; &lt;!--文档类型--&gt; &lt;html lang =&quot;zh-CN&quot;&gt; &lt;!--语言--&gt; &lt;head&gt; &lt;!--头标签，放置看不见的元素--&gt; &lt;meta charse =&quot;UTF-8&quot;&gt; &lt;!--文件字符编码--&gt; &lt;meta name =&quot;viewport&quot; content =&quot;width = device-width , initial-scale =1.0&quot;&gt; &lt;!--兼容手机，禁止缩放--&gt; &lt;meta http-equiv = &quot;X-UA-Compatible&quot; content = &quot;ie = edge&quot;&gt; &lt;!--告诉浏览器使用最新内核--&gt; &lt;title&gt;Document&lt;/title&gt; &lt;!--标题--&gt; &lt;/head&gt; &lt;body&gt;&lt;/body&gt;  3. 常见的章节标签 ——表示文章/书的层级  章节标签： &lt;section&gt;&lt;/section&gt; 标题标签 ： &lt;h1&gt;&lt;/h1&gt;、&lt;h2&gt;&lt;/h2&gt;、&lt;h3&gt;&lt;/h3&gt;、&lt;h4&gt;&lt;/h4&gt;、&lt;h5&gt;&lt;/h5&gt;、&lt;h6&gt;&lt;/h6&gt; 段落标签：&lt;p&gt;&lt;/p&gt; 头部标签：&lt;header&gt;&lt;/header&gt; 底部标签：&lt;footer&gt;&lt;/footer&gt; 主要内容标签：&lt;main&gt;&lt;/main&gt; 旁支标签：&lt;aside&gt;&lt;/aside&gt; 块级分节标签：&lt;div&gt;&lt;/div&gt; 行内分节标签：&lt;span&gt;&lt;/span&gt;  4.">
+
+
+<meta itemprop="datePublished" content="2019-10-23T22:44:21&#43;08:00" />
+<meta itemprop="dateModified" content="2019-10-23T22:44:21&#43;08:00" />
+<meta itemprop="wordCount" content="111">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="HTML入门笔记"/>
+<meta name="twitter:description" content="HTML 简介 HTML 起手式 常见的章节标签 标签的全局属性 常用的内容标签  1. HTML 简介 超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。 HTML 由一系列的元素（elements）组成，这些元素可以用来包围不同部分的内容，使其以某种方式呈现或者工作。 特别需要注意的是，每个标签都有默认样式，但是都可以通过后续部署对样式进行修改。
+2. HTML 起手式 &lt;!DOCTYPE html&gt; &lt;!--文档类型--&gt; &lt;html lang =&quot;zh-CN&quot;&gt; &lt;!--语言--&gt; &lt;head&gt; &lt;!--头标签，放置看不见的元素--&gt; &lt;meta charse =&quot;UTF-8&quot;&gt; &lt;!--文件字符编码--&gt; &lt;meta name =&quot;viewport&quot; content =&quot;width = device-width , initial-scale =1.0&quot;&gt; &lt;!--兼容手机，禁止缩放--&gt; &lt;meta http-equiv = &quot;X-UA-Compatible&quot; content = &quot;ie = edge&quot;&gt; &lt;!--告诉浏览器使用最新内核--&gt; &lt;title&gt;Document&lt;/title&gt; &lt;!--标题--&gt; &lt;/head&gt; &lt;body&gt;&lt;/body&gt;  3. 常见的章节标签 ——表示文章/书的层级  章节标签： &lt;section&gt;&lt;/section&gt; 标题标签 ： &lt;h1&gt;&lt;/h1&gt;、&lt;h2&gt;&lt;/h2&gt;、&lt;h3&gt;&lt;/h3&gt;、&lt;h4&gt;&lt;/h4&gt;、&lt;h5&gt;&lt;/h5&gt;、&lt;h6&gt;&lt;/h6&gt; 段落标签：&lt;p&gt;&lt;/p&gt; 头部标签：&lt;header&gt;&lt;/header&gt; 底部标签：&lt;footer&gt;&lt;/footer&gt; 主要内容标签：&lt;main&gt;&lt;/main&gt; 旁支标签：&lt;aside&gt;&lt;/aside&gt; 块级分节标签：&lt;div&gt;&lt;/div&gt; 行内分节标签：&lt;span&gt;&lt;/span&gt;  4."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      花生油奇遇记
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">HTML入门笔记</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-10-23T22:44:21&#43;08:00">October 23, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<ol>
+<li>HTML 简介</li>
+<li>HTML 起手式</li>
+<li>常见的章节标签</li>
+<li>标签的全局属性</li>
+<li>常用的内容标签</li>
+</ol>
+
+<h2 id="1-html-简介">1. HTML 简介</h2>
+
+<p>超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。
+HTML 由一系列的元素（elements）组成，这些元素可以用来包围不同部分的内容，使其以某种方式呈现或者工作。
+特别需要注意的是，每个标签都有<strong>默认样式</strong>，但是都可以<strong>通过后续部署对样式进行修改</strong>。</p>
+
+<h2 id="2-html-起手式">2. HTML 起手式</h2>
+
+<pre><code>&lt;!DOCTYPE html&gt;   &lt;!--文档类型--&gt;
+&lt;html lang =&quot;zh-CN&quot;&gt;   &lt;!--语言--&gt;
+&lt;head&gt;   &lt;!--头标签，放置看不见的元素--&gt;
+    &lt;meta charse =&quot;UTF-8&quot;&gt; &lt;!--文件字符编码--&gt;
+    &lt;meta name =&quot;viewport&quot; content =&quot;width = device-width , initial-scale =1.0&quot;&gt;  &lt;!--兼容手机，禁止缩放--&gt;
+    &lt;meta http-equiv = &quot;X-UA-Compatible&quot; content = &quot;ie = edge&quot;&gt;    &lt;!--告诉浏览器使用最新内核--&gt;
+    &lt;title&gt;Document&lt;/title&gt;    &lt;!--标题--&gt;
+&lt;/head&gt;
+&lt;body&gt;&lt;/body&gt;
+</code></pre>
+
+<h2 id="3-常见的章节标签-表示文章-书的层级">3. 常见的章节标签 ——表示文章/书的层级</h2>
+
+<ul>
+<li>章节标签： <code>&lt;section&gt;&lt;/section&gt;</code></li>
+<li>标题标签 ： <code>&lt;h1&gt;&lt;/h1&gt;</code>、<code>&lt;h2&gt;&lt;/h2&gt;</code>、<code>&lt;h3&gt;&lt;/h3&gt;</code>、<code>&lt;h4&gt;&lt;/h4&gt;</code>、<code>&lt;h5&gt;&lt;/h5&gt;</code>、<code>&lt;h6&gt;&lt;/h6&gt;</code></li>
+<li>段落标签：<code>&lt;p&gt;&lt;/p&gt;</code></li>
+<li>头部标签：<code>&lt;header&gt;&lt;/header&gt;</code></li>
+<li>底部标签：<code>&lt;footer&gt;&lt;/footer&gt;</code></li>
+<li>主要内容标签：<code>&lt;main&gt;&lt;/main&gt;</code></li>
+<li>旁支标签：<code>&lt;aside&gt;&lt;/aside&gt;</code></li>
+<li>块级分节标签：<code>&lt;div&gt;&lt;/div&gt;</code></li>
+<li>行内分节标签：<code>&lt;span&gt;&lt;/span&gt;</code></li>
+</ul>
+
+<h2 id="4-标签常用的全局属性">4. 标签常用的全局属性</h2>
+
+<ul>
+<li><code>class=&quot;aaa bbb&quot;</code> 简写引用.aaa .bbb</li>
+<li><code>id=&quot;ccc&quot;</code> 简写引用#ccc</li>
+<li><code>style=&quot;&quot;</code> 覆盖顺序 js&gt;html&gt;css</li>
+<li><code>title=&quot;&quot;</code> 常用于悬浮显示完整内容</li>
+<li><code>tabindex</code>控制 tab 顺序，0 为最后一个，-1 为跳过 tab</li>
+<li><code>contenteditable</code>可编辑</li>
+<li><code>hidden</code>隐藏</li>
+</ul>
+
+<h2 id="5-常用的内容标签">5. 常用的内容标签</h2>
+
+<ul>
+<li>有序列表：<code>&lt;ol&gt;&lt;li&gt;&lt;/li&gt;&lt;/ol&gt;</code></li>
+<li>无序列表：<code>&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</code></li>
+<li>描述列表：<code>&lt;dl&gt;&lt;dt&gt;&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;/dl&gt;</code></li>
+<li>预格式化文化：保留空格、tab、回车，字体等宽。<code>&lt;pre&gt;&lt;/pre&gt;</code></li>
+<li>计算机代码文本：<code>&lt;code&gt;&lt;/code&gt;</code>
+<strong>pre+code 标签实现展示代码</strong></li>
+<li>分割线：<code>&lt;hr&gt;</code></li>
+<li>换行标签：<code>&lt;br&gt;</code></li>
+<li>超链接标签：<code>&lt;a href=&quot;&quot; target=&quot;&quot;&gt;&lt;/a&gt;</code></li>
+<li>强调标签：斜体<code>&lt;em&gt;&lt;/em&gt;</code></li>
+<li>重点标签：加粗<code>&lt;strong&gt;&lt;/strong&gt;</code></li>
+<li>内联引用标签：<code>&lt;quote&gt;&lt;/quote&gt;</code></li>
+<li>块级引用标签：<code>&lt;blockquote&gt;&lt;/blockquote&gt;</code></li>
+</ul>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2019 花生油奇遇记
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
