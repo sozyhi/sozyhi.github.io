@@ -21,5 +21,23 @@
 2. HTML 起手式 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;!--文档类型--&amp;gt; &amp;lt;html lang =&amp;quot;zh-CN&amp;quot;&amp;gt; &amp;lt;!--语言--&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!--头标签，放置看不见的元素--&amp;gt; &amp;lt;meta charse =&amp;quot;UTF-8&amp;quot;&amp;gt; &amp;lt;!--文件字符编码--&amp;gt; &amp;lt;meta name =&amp;quot;viewport&amp;quot; content =&amp;quot;width = device-width , initial-scale =1.0&amp;quot;&amp;gt; &amp;lt;!--兼容手机，禁止缩放--&amp;gt; &amp;lt;meta http-equiv = &amp;quot;X-UA-Compatible&amp;quot; content = &amp;quot;ie = edge&amp;quot;&amp;gt; &amp;lt;!--告诉浏览器使用最新内核--&amp;gt; &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;!--标题--&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;  3. 常见的章节标签 ——表示文章/书的层级  章节标签： &amp;lt;section&amp;gt;&amp;lt;/section&amp;gt; 标题标签 ： &amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;、&amp;lt;h2&amp;gt;&amp;lt;/h2&amp;gt;、&amp;lt;h3&amp;gt;&amp;lt;/h3&amp;gt;、&amp;lt;h4&amp;gt;&amp;lt;/h4&amp;gt;、&amp;lt;h5&amp;gt;&amp;lt;/h5&amp;gt;、&amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt; 段落标签：&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; 头部标签：&amp;lt;header&amp;gt;&amp;lt;/header&amp;gt; 底部标签：&amp;lt;footer&amp;gt;&amp;lt;/footer&amp;gt; 主要内容标签：&amp;lt;main&amp;gt;&amp;lt;/main&amp;gt; 旁支标签：&amp;lt;aside&amp;gt;&amp;lt;/aside&amp;gt; 块级分节标签：&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt; 行内分节标签：&amp;lt;span&amp;gt;&amp;lt;/span&amp;gt;  4.</description>
     </item>
     
+    <item>
+      <title>如何使用GitHubPages实现在线预览页面</title>
+      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8githubpages%E5%AE%9E%E7%8E%B0%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E9%A1%B5%E9%9D%A2/</link>
+      <pubDate>Sun, 20 Oct 2019 22:52:53 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8githubpages%E5%AE%9E%E7%8E%B0%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E9%A1%B5%E9%9D%A2/</guid>
+      <description>github 是一个基于 git 的代码托管平台，可以通过设置 GitHub Pages 功能实现页面的在线预览。 主要是以下四个步骤：
+ Step1 创建本地仓库
+Step2 创建线上仓库
+Step3 将本地仓库内容上传至线上仓库
+Step4 设置 GitHub Pages 实现在线页面预览
+ Step1 创建本地仓库 在项目存放地址按照以下步骤操作：
+ 本地文件夹创建
+mkdir gitdemo //创建gitdemo文件夹 cd gitdemo //进入gitdemo文件夹 touch index.html //创建html文件   编辑 index.html 文件，这里在body标签里面简单的加上一段:&amp;lt;div&amp;gt;&amp;lt;p&amp;gt;Hello World!&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;
+ git 初始化本地仓库
+git init //git初始化 git add . // git commit -m &amp;quot;第一次部署&amp;quot;   Step2 创建线上仓库 Step3 将本地仓库内容上传至线上仓库 终端进入本地的 gitdemo 文件夹，在终端执行 push an existing repository from the command line 选项下的代码，xxx替换为你的用户名。</description>
+    </item>
+    
   </channel>
 </rss>
